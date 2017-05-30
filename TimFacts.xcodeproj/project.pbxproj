@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E87F306F1ED1482A0085CB87 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F306E1ED1482A0085CB87 /* FactModel.swift */; };
+		E87F30711ED1FEFC0085CB87 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87F30701ED1FEFC0085CB87 /* ColorModel.swift */; };
 		E8A831F91ECBB66B00019541 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A831F81ECBB66B00019541 /* AppDelegate.swift */; };
 		E8A831FB1ECBB66B00019541 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8A831FA1ECBB66B00019541 /* ViewController.swift */; };
 		E8A831FE1ECBB66B00019541 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E8A831FC1ECBB66B00019541 /* Main.storyboard */; };
@@ -34,17 +36,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		E8A831F51ECBB66B00019541 /* FunFacts2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E87F306E1ED1482A0085CB87 /* FactModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		E87F30701ED1FEFC0085CB87 /* ColorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		E8A831F51ECBB66B00019541 /* FunFacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FunFacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A831F81ECBB66B00019541 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E8A831FA1ECBB66B00019541 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E8A831FD1ECBB66B00019541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E8A831FF1ECBB66B00019541 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E8A832021ECBB66B00019541 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E8A832041ECBB66B00019541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8A832091ECBB66B00019541 /* FunFacts2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFacts2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A832091ECBB66B00019541 /* FunFactsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A8320D1ECBB66B00019541 /* FunFacts2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFacts2Tests.swift; sourceTree = "<group>"; };
 		E8A8320F1ECBB66B00019541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E8A832141ECBB66B00019541 /* FunFacts2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFacts2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8A832141ECBB66B00019541 /* FunFactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FunFactsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8A832181ECBB66B00019541 /* FunFacts2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunFacts2UITests.swift; sourceTree = "<group>"; };
 		E8A8321A1ECBB66B00019541 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,9 +91,9 @@
 		E8A831F61ECBB66B00019541 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E8A831F51ECBB66B00019541 /* FunFacts2.app */,
-				E8A832091ECBB66B00019541 /* FunFacts2Tests.xctest */,
-				E8A832141ECBB66B00019541 /* FunFacts2UITests.xctest */,
+				E8A831F51ECBB66B00019541 /* FunFacts.app */,
+				E8A832091ECBB66B00019541 /* FunFactsTests.xctest */,
+				E8A832141ECBB66B00019541 /* FunFactsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -100,6 +104,8 @@
 				E8A831F81ECBB66B00019541 /* AppDelegate.swift */,
 				E8A831FA1ECBB66B00019541 /* ViewController.swift */,
 				E8A831FC1ECBB66B00019541 /* Main.storyboard */,
+				E87F306E1ED1482A0085CB87 /* FactModel.swift */,
+				E87F30701ED1FEFC0085CB87 /* ColorModel.swift */,
 				E8A831FF1ECBB66B00019541 /* Assets.xcassets */,
 				E8A832011ECBB66B00019541 /* LaunchScreen.storyboard */,
 				E8A832041ECBB66B00019541 /* Info.plist */,
@@ -128,9 +134,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E8A831F41ECBB66B00019541 /* FunFacts2 */ = {
+		E8A831F41ECBB66B00019541 /* FunFacts */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8A8321D1ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts2" */;
+			buildConfigurationList = E8A8321D1ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts" */;
 			buildPhases = (
 				E8A831F11ECBB66B00019541 /* Sources */,
 				E8A831F21ECBB66B00019541 /* Frameworks */,
@@ -140,14 +146,14 @@
 			);
 			dependencies = (
 			);
-			name = FunFacts2;
+			name = FunFacts;
 			productName = FunFacts2;
-			productReference = E8A831F51ECBB66B00019541 /* FunFacts2.app */;
+			productReference = E8A831F51ECBB66B00019541 /* FunFacts.app */;
 			productType = "com.apple.product-type.application";
 		};
-		E8A832081ECBB66B00019541 /* FunFacts2Tests */ = {
+		E8A832081ECBB66B00019541 /* FunFactsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8A832201ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts2Tests" */;
+			buildConfigurationList = E8A832201ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFactsTests" */;
 			buildPhases = (
 				E8A832051ECBB66B00019541 /* Sources */,
 				E8A832061ECBB66B00019541 /* Frameworks */,
@@ -158,14 +164,14 @@
 			dependencies = (
 				E8A8320B1ECBB66B00019541 /* PBXTargetDependency */,
 			);
-			name = FunFacts2Tests;
+			name = FunFactsTests;
 			productName = FunFacts2Tests;
-			productReference = E8A832091ECBB66B00019541 /* FunFacts2Tests.xctest */;
+			productReference = E8A832091ECBB66B00019541 /* FunFactsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E8A832131ECBB66B00019541 /* FunFacts2UITests */ = {
+		E8A832131ECBB66B00019541 /* FunFactsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E8A832231ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts2UITests" */;
+			buildConfigurationList = E8A832231ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFactsUITests" */;
 			buildPhases = (
 				E8A832101ECBB66B00019541 /* Sources */,
 				E8A832111ECBB66B00019541 /* Frameworks */,
@@ -176,9 +182,9 @@
 			dependencies = (
 				E8A832161ECBB66B00019541 /* PBXTargetDependency */,
 			);
-			name = FunFacts2UITests;
+			name = FunFactsUITests;
 			productName = FunFacts2UITests;
-			productReference = E8A832141ECBB66B00019541 /* FunFacts2UITests.xctest */;
+			productReference = E8A832141ECBB66B00019541 /* FunFactsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -193,6 +199,7 @@
 				TargetAttributes = {
 					E8A831F41ECBB66B00019541 = {
 						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = Q2L7CX72VS;
 						ProvisioningStyle = Automatic;
 					};
 					E8A832081ECBB66B00019541 = {
@@ -207,7 +214,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E8A831F01ECBB66B00019541 /* Build configuration list for PBXProject "FunFacts2" */;
+			buildConfigurationList = E8A831F01ECBB66B00019541 /* Build configuration list for PBXProject "FunFacts" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,9 +227,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E8A831F41ECBB66B00019541 /* FunFacts2 */,
-				E8A832081ECBB66B00019541 /* FunFacts2Tests */,
-				E8A832131ECBB66B00019541 /* FunFacts2UITests */,
+				E8A831F41ECBB66B00019541 /* FunFacts */,
+				E8A832081ECBB66B00019541 /* FunFactsTests */,
+				E8A832131ECBB66B00019541 /* FunFactsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,8 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87F306F1ED1482A0085CB87 /* FactModel.swift in Sources */,
 				E8A831FB1ECBB66B00019541 /* ViewController.swift in Sources */,
 				E8A831F91ECBB66B00019541 /* AppDelegate.swift in Sources */,
+				E87F30711ED1FEFC0085CB87 /* ColorModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,12 +294,12 @@
 /* Begin PBXTargetDependency section */
 		E8A8320B1ECBB66B00019541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E8A831F41ECBB66B00019541 /* FunFacts2 */;
+			target = E8A831F41ECBB66B00019541 /* FunFacts */;
 			targetProxy = E8A8320A1ECBB66B00019541 /* PBXContainerItemProxy */;
 		};
 		E8A832161ECBB66B00019541 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = E8A831F41ECBB66B00019541 /* FunFacts2 */;
+			target = E8A831F41ECBB66B00019541 /* FunFacts */;
 			targetProxy = E8A832151ECBB66B00019541 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -412,9 +421,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2L7CX72VS;
 				INFOPLIST_FILE = FunFacts2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.timxu.FunFacts2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimXu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -424,9 +434,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Q2L7CX72VS;
 				INFOPLIST_FILE = FunFacts2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.timxu.FunFacts2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.TimXu;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,7 +453,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.timxu.FunFacts2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacts2.app/FunFacts2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacts.app/FunFacts";
 			};
 			name = Debug;
 		};
@@ -456,7 +467,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.timxu.FunFacts2Tests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacts2.app/FunFacts2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FunFacts.app/FunFacts";
 			};
 			name = Release;
 		};
@@ -489,7 +500,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E8A831F01ECBB66B00019541 /* Build configuration list for PBXProject "FunFacts2" */ = {
+		E8A831F01ECBB66B00019541 /* Build configuration list for PBXProject "FunFacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8A8321B1ECBB66B00019541 /* Debug */,
@@ -498,29 +509,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E8A8321D1ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts2" */ = {
+		E8A8321D1ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8A8321E1ECBB66B00019541 /* Debug */,
 				E8A8321F1ECBB66B00019541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E8A832201ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts2Tests" */ = {
+		E8A832201ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFactsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8A832211ECBB66B00019541 /* Debug */,
 				E8A832221ECBB66B00019541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		E8A832231ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFacts2UITests" */ = {
+		E8A832231ECBB66B00019541 /* Build configuration list for PBXNativeTarget "FunFactsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E8A832241ECBB66B00019541 /* Debug */,
 				E8A832251ECBB66B00019541 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
